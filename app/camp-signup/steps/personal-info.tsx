@@ -105,7 +105,7 @@ export function PersonalInfo({ onNext, data }: PersonalInfoProps) {
     e.preventDefault()
     onNext({ personalInfo: { ...formData, email: formData.email || '', badgePicture: formData.badgePicture } })
   }
-
+  // test
   return (
     <motion.form
       initial={{ opacity: 0 }}
